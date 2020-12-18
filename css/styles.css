@@ -1,0 +1,202 @@
+:root {
+  --primari-text-color: #212121;
+  --primari-click-color: #2196f3;
+  --secondary-color: #757575;
+  --primari-white-color: #ffffff;
+  --background-hefu-color: #2f303a;
+  --batton-bg-color: #f5f4fa;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: var(--primari-bg-color);
+  color: var(--primari-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Логотип*/
+/*Присвоил цвет что бы было видно текст*/
+.heroes {
+  background: var(--background-hefu-color);
+}
+
+.hero {
+  color: var(--primari-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.logo {
+  color: var(--primari-click-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-studio {
+  color: var(--primari-text-color);
+}
+
+/*Основной раздел*/
+.site-nav,
+.link .site-contacts,
+.contacts {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--primari-text-color);
+  text-decoration: none;
+}
+
+.site-contacts .contacts {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--primari-click-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primari-click-color);
+}
+
+.site-contacts .contacts:hover,
+.site-contacts .contacts:focus {
+  color: var(--primari-click-color);
+}
+
+.title {
+  color: var(--primari-text-color);
+
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.uppercase {
+  color: var(--primari-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+/*Команда сайта*/
+.text {
+  color: var(--secondary-color);
+
+  font-weight: 400;
+  line-height: 1.7px;
+}
+
+.name {
+  color: var(--primari-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.position,
+.filter {
+  color: var(--secondary-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/*Портфолио*/
+.all-portfolio {
+  text-decoration: none;
+}
+
+.portfolio {
+  color: var(--primari-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.position {
+  line-height: 1.19;
+}
+.filter {
+  line-height: 1.9;
+}
+
+/*Контакты и место положения(в подвале)*/
+/*Дал подвалу цвет что бы было видно контакты */
+footer {
+  background: var(--background-hefu-color);
+}
+
+.contacts-footer {
+  color: var(--contacts-footer-color);
+  text-decoration: none;
+}
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--primari-click-color);
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-footer {
+  color: var(--primari-white-color);
+}
+
+.location {
+  color: var(--primari-white-color);
+  font-style: normal;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/*Кнопки*/
+.hero-button {
+  color: var(--primari-white-color);
+  background: var(--primari-click-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+.buttons .button-portfolio {
+  background: var(--batton-bg-color);
+  color: var(--primari-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.buttons .button-portfolio:hover,
+.buttons .button-portfolio:focus {
+  background: var(--primari-click-color);
+  color: var(--primari-white-color);
+}
