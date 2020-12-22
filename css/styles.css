@@ -137,6 +137,12 @@ ul {
   color: var(--primari-click-color);
 }
 
+.hr {
+  border: 1px solid #ececec;
+  height: 0px;
+  left: 0px;
+}
+
 /*Основной раздел*/
 /*герой*/
 .heroes {
