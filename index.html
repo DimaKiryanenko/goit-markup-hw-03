@@ -16,127 +16,138 @@
 </head>
 
 <body>
-
     <!--шапка сайта-->
+    
     <header class="header">
-        <nav>
-            <a lang="en" class="logo">
-                Web<span class="logo-studio">Studio</span>
-            </a>
-
-            <ul class="site-nav">
-                <li>
-                    <a href=" " class="link current">Студия</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html" class="link">Портфолио</a>
-                </li>
-                <li>
-                    <a href=" " class="link">Контакты</a>
-                </li>
-            </ul>
+    <div class="countainer main-nav">
+        <nav class="main-nav">
+        <a lang="en" class="logo">
+            Web<span class="logo-studio">Studio</span>
+        </a>
+        <ul class="site-nav">
+            <li class="item">
+                <a href=" " class="link current">Студия</a>
+            </li>
+            <li class="item">
+                <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item">
+                <a href=" " class="link">Контакты</a>
+            </li>
+        </ul>
         </nav>
         <ul class="site-contacts">
-            <li>
+            <li class="item">
             <a class="contacts" href="mailto:info@devstudio.com"> 
             info@devstudio.com
             </a>
             </li>
-            <li>
+            <li class="item">
             <a class="contacts" href="tel:380961111111"> 
             +38 096 111 11 11
             </a>
             </li>
         </ul>
+    </div>
     </header>
     <!--Основной раздел странички-->
     <main>
         <!--Герой-->
-        
         <section class="heroes">
-                <h1 class="hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button class="hero-button"> Заказать услугу </button>
+        <div class="countainer item">
+            <h1 class="hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button class="hero-button"> Заказать услугу</button>
+        </div>
         </section>
-        
+       
         <!--Описание -->
-        <section>
+         <section>
+        <div class="countainer dl-section">
             <ul class="description-list">
-                <li>
+                <li class="main part"> 
                     <h3 class="title">Внимание к деталям</h3>
                     <p class="text">
                         Идейные соображения, а также начало повседневной работы по формированию позиции.
                     </p>
                 </li>
-                <li>
+                <li class="main-part">
                     <h3 class="title">Пунктуальность</h3>
                     <p class="text">
                         Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                     </p>
                 </li>
-                <li>
+                <li class="main-part">
                     <h3 class="title">Планирование</h3>
                     <p class="text">
                         Равным образом консультация с широким активом в значительной степени обуславливает.
                     </p>
                 </li>
-                <li>
+                <li class="main-part">
                     <h3 class="title">Современные технологии</h3>
                     <p class="text">
                         Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                     </p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--Примеры работ-->
+        
         <section>
+        <div class="countainer">
             <h2 class="uppercase">Чем мы занимаемся</h2>
 
-            <ul>
-                <li>
+            <ul class="description-list">
+                <li class="doing main-part">
                     <img src="./image/Keyboard1.jpg" 
                     alt="Мужчина верстает сайт за планшетом подключенного к беспроводной клавиатуре" width="370" height="294">
                 </li>
-                <li>
+                <li class="doing main-part">
                     <img src="./image/Keyboard2.jpg"
                         alt="Девушка сидит за ноутбуком с мобильным телефоном" width="370" height="294">
                 </li>
-                <li>
+                <li class="doing main-part">
                     <img src="./image/Keyboard3.jpg"
                         alt="Девушка держит планшет, на котором нарисовали большую соту, сотоящию с малых сот цвета радуги" width="370" height="294">
                 </li>
             </ul>
+        </div>
         </section>
+    
         <!--Команда студии-->
-        <section class="team">
+        <section class="team dl-section">
+        <div class="countainer">
             <h2 class="uppercase">Наша команда</h2>
-            <ul class="photos">
-                <li class="partners">
+            <ul class="photos description-list">
+                <li class="partners main-part">
                     <img src="./image/Igor.jpg" alt="фотография Игоря Демьяненко" width="270" height="260">
                     <h3 class="name">Игорь Демьяненко</h3>
                     <p class="position" lang="en">Product Designer</p>
                 </li>
-                <li class="partners">
+                <li class="partners main-part">
                     <img src="./image/Olga.jpg" alt="фотография Ольги Репиной" width="270" height="260">
                     <h3 class="name">Ольга Репина</h3>
                     <p class="position" lang="en">Frontend Developer</p>
                 </li>
-                <li class="partners">
+                <li class="partners main-part">
                     <img src="./image/Nikolay.jpg" alt="фотография Николая Тарасова" width="270" height="260">
                     <h3 class="name">Николай Тарасов</h3>
                     <p class="position" lang="en">Marketing</p>
                 </li>
-                <li class="partners">
+                <li class="partners main-part">
                     <img  src="./image/Michael.jpg"  alt="фотография Михаила Ермакова" width="270" height="260">
                     <h3 class="name">Михаил Ермаков</h3>
                     <p class="position" lang="en">UI Designer</p>
                      
                 </li>
             </ul>
+        </div>
         </section>
     </main>
 
     <!--Контакты и местоположение студии-->
     <footer>
+    <div class="countainer footer-countainer">
         <a lang="en" class="logo">
             Web<span class="logo-footer">Studio</span>
         </a>
@@ -144,18 +155,19 @@
         <address>
             <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
         </address>
-        <ul class="site-contacts">
-            <li>
+        <ul class="site-contacts site-contacts-footer">
+            <li class="footer-locfoo">
              <a class="contacts-footer" href="mailto:info@devstudio.com">
                 info@devstudio.com
              </a>
             </li>
-            <li>
-            <a class="contacts-footer" href="tel:380961111111">
+            <li class="footer-locfoo">
+            <a class="contacts-footer " href="tel:380961111111">
                 +38 096 111 11 11
             </a>
             </li>
         </ul>
+    </div>
     </footer>
 </body>
 
