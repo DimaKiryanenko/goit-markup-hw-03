@@ -147,13 +147,12 @@ ul {
 /*герой*/
 .heroes {
   background: var(--background-hefu-color);
-  text-align: center;
+
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
 .hero {
-  width: 696px;
   margin-top: 0px;
   margin-bottom: 30px;
   margin-left: auto;
@@ -165,6 +164,11 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+}
+
+.hero-title {
+  text-align: center;
+  width: 696px;
 }
 
 .dl-section {
@@ -236,8 +240,14 @@ ul {
   display: inline-block;
 }
 
+.main-parts + .main-parts {
+  margin-left: 30px;
+}
+
 .name {
   color: var(--primari-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -250,12 +260,18 @@ ul {
 .position,
 .filter {
   color: var(--secondary-color);
+  margin-top: 0;
+  margin-bottom: 0;
 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
 }
 
+.info-name {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 /*Портфолио*/
 .all-portfolio {
   display: flex;
@@ -288,9 +304,9 @@ ul {
 
 .portfolio {
   color: var(--primari-text-color);
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
-  margin-left: 24px;
+  margin-left: 0;
 
   font-weight: 700;
   font-size: 18px;
@@ -303,15 +319,21 @@ ul {
 
 .filter {
   margin-top: 0;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  margin-bottom: 0;
+  margin-left: 0;
 
   line-height: 1.9;
+}
+
+.portfolio-countainer .info-name {
+  margin-top: 20px;
+  margin-left: 24px;
 }
 
 /*Подвал*/
 footer {
   background: var(--background-hefu-color);
+  padding-top: 60px;
 }
 
 .contacts-footer {
@@ -341,11 +363,14 @@ footer {
   color: var(--primari-white-color);
 }
 
+.address-footer {
+  margin-bottom: 9px;
+  margin-top: 20px;
+}
+
 .location {
   color: var(--primari-white-color);
   font-style: normal;
-  margin-bottom: 9px;
-  margin-top: 20px;
 
   font-weight: 400;
   font-size: 14px;
