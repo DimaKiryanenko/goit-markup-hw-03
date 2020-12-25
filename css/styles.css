@@ -50,6 +50,8 @@ ul {
 
 .heroes .item {
   padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*Логотип*/
@@ -137,11 +139,11 @@ ul {
   color: var(--primari-click-color);
 }
 
-.hr {
+/*.hr {
   border: 1px solid #ececec;
   height: 0px;
   left: 0px;
-}
+}*/
 
 /*Основной раздел*/
 /*герой*/
@@ -269,8 +271,8 @@ ul {
 }
 
 .info-name {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /*Портфолио*/
 .all-portfolio {
@@ -334,6 +336,7 @@ ul {
 footer {
   background: var(--background-hefu-color);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .contacts-footer {
@@ -378,7 +381,7 @@ footer {
 }
 
 .footer-countainer {
-  padding-bottom: 60px;
+  padding-bottom: 0;
 }
 /*Кнопки*/
 
