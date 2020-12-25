@@ -45,6 +45,7 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -174,15 +175,16 @@ ul {
   width: 696px;
 }
 
-.dl-section {
-  padding-top: 94px;
-}
 .main-part + .main-part {
   margin-left: 50px;
 }
 
 .description-list {
   display: flex;
+}
+
+.no-padding {
+  padding-top: 0;
 }
 
 .title {
